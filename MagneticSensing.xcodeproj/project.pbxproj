@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CF694C61A3CD96C008285F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694C51A3CD96C008285F3 /* AppDelegate.swift */; };
+		6CF694C81A3CD96C008285F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694C71A3CD96C008285F3 /* ViewController.swift */; };
+		6CF694CB1A3CD96C008285F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF694C91A3CD96C008285F3 /* Main.storyboard */; };
+		6CF694CD1A3CD96C008285F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF694CC1A3CD96C008285F3 /* Images.xcassets */; };
+		6CF694D01A3CD96C008285F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF694CE1A3CD96C008285F3 /* LaunchScreen.xib */; };
+		6CF694DC1A3CD96C008285F3 /* MagneticSensingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694DB1A3CD96C008285F3 /* MagneticSensingTests.swift */; };
+		6CF695041A3D0356008285F3 /* imshow.py in Resources */ = {isa = PBXBuildFile; fileRef = 6CF694E61A3D0356008285F3 /* imshow.py */; };
+		6CF695051A3D0356008285F3 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694E71A3D0356008285F3 /* io.swift */; };
+		6CF695061A3D0356008285F3 /* machine_learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694E91A3D0356008285F3 /* machine_learning.swift */; };
+		6CF695071A3D0356008285F3 /* m-complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694EB1A3D0356008285F3 /* m-complex-math.swift */; };
+		6CF695081A3D0356008285F3 /* m-helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694EC1A3D0356008285F3 /* m-helper-functions.swift */; };
+		6CF695091A3D0356008285F3 /* m-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694ED1A3D0356008285F3 /* m-image.swift */; };
+		6CF6950A1A3D0356008285F3 /* m-initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694EE1A3D0356008285F3 /* m-initing.swift */; };
+		6CF6950B1A3D0356008285F3 /* m-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694EF1A3D0356008285F3 /* m-matrix.swift */; };
+		6CF6950C1A3D0356008285F3 /* m-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F01A3D0356008285F3 /* m-operators.swift */; };
+		6CF6950D1A3D0356008285F3 /* m-simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F11A3D0356008285F3 /* m-simple-math.swift */; };
+		6CF6950E1A3D0356008285F3 /* complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F31A3D0356008285F3 /* complex-math.swift */; };
+		6CF6950F1A3D0356008285F3 /* helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F41A3D0356008285F3 /* helper-functions.swift */; };
+		6CF695101A3D0356008285F3 /* initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F51A3D0356008285F3 /* initing.swift */; };
+		6CF695111A3D0356008285F3 /* ndarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F61A3D0356008285F3 /* ndarray.swift */; };
+		6CF695121A3D0356008285F3 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F71A3D0356008285F3 /* operators.swift */; };
+		6CF695131A3D0356008285F3 /* simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F81A3D0356008285F3 /* simple-math.swift */; };
+		6CF695141A3D0356008285F3 /* numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694F91A3D0356008285F3 /* numbers.swift */; };
+		6CF695151A3D0356008285F3 /* conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694FB1A3D0356008285F3 /* conversion.swift */; };
+		6CF695161A3D0356008285F3 /* machine_learning.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694FC1A3D0356008285F3 /* machine_learning.mm */; };
+		6CF695171A3D0356008285F3 /* math.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694FD1A3D0356008285F3 /* math.m */; };
+		6CF695181A3D0356008285F3 /* opencv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF694FF1A3D0356008285F3 /* opencv.mm */; };
+		6CF695191A3D0356008285F3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF695001A3D0356008285F3 /* opencv2.framework */; };
+		6CF6951A1A3D0356008285F3 /* operations-and-indexing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF695011A3D0356008285F3 /* operations-and-indexing.m */; };
+		6CF6951B1A3D0356008285F3 /* ScalarArithmetic-bleed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF695031A3D0356008285F3 /* ScalarArithmetic-bleed.swift */; };
+		6CF6951D1A3D04F9008285F3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF6951C1A3D04F9008285F3 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CF694D61A3CD96C008285F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF694B81A3CD96C008285F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF694BF1A3CD96C008285F3;
+			remoteInfo = MagneticSensing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CF694C01A3CD96C008285F3 /* MagneticSensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticSensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF694C41A3CD96C008285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF694C51A3CD96C008285F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CF694C71A3CD96C008285F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CF694CA1A3CD96C008285F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CF694CC1A3CD96C008285F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CF694CF1A3CD96C008285F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CF694D51A3CD96C008285F3 /* MagneticSensingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticSensingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF694DA1A3CD96C008285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF694DB1A3CD96C008285F3 /* MagneticSensingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticSensingTests.swift; sourceTree = "<group>"; };
+		6CF694E61A3D0356008285F3 /* imshow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = imshow.py; sourceTree = "<group>"; };
+		6CF694E71A3D0356008285F3 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		6CF694E91A3D0356008285F3 /* machine_learning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = machine_learning.swift; sourceTree = "<group>"; };
+		6CF694EB1A3D0356008285F3 /* m-complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-complex-math.swift"; sourceTree = "<group>"; };
+		6CF694EC1A3D0356008285F3 /* m-helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-helper-functions.swift"; sourceTree = "<group>"; };
+		6CF694ED1A3D0356008285F3 /* m-image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-image.swift"; sourceTree = "<group>"; };
+		6CF694EE1A3D0356008285F3 /* m-initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-initing.swift"; sourceTree = "<group>"; };
+		6CF694EF1A3D0356008285F3 /* m-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-matrix.swift"; sourceTree = "<group>"; };
+		6CF694F01A3D0356008285F3 /* m-operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-operators.swift"; sourceTree = "<group>"; };
+		6CF694F11A3D0356008285F3 /* m-simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-simple-math.swift"; sourceTree = "<group>"; };
+		6CF694F31A3D0356008285F3 /* complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "complex-math.swift"; sourceTree = "<group>"; };
+		6CF694F41A3D0356008285F3 /* helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "helper-functions.swift"; sourceTree = "<group>"; };
+		6CF694F51A3D0356008285F3 /* initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initing.swift; sourceTree = "<group>"; };
+		6CF694F61A3D0356008285F3 /* ndarray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ndarray.swift; sourceTree = "<group>"; };
+		6CF694F71A3D0356008285F3 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		6CF694F81A3D0356008285F3 /* simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simple-math.swift"; sourceTree = "<group>"; };
+		6CF694F91A3D0356008285F3 /* numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = numbers.swift; sourceTree = "<group>"; };
+		6CF694FB1A3D0356008285F3 /* conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversion.swift; sourceTree = "<group>"; };
+		6CF694FC1A3D0356008285F3 /* machine_learning.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = machine_learning.mm; sourceTree = "<group>"; };
+		6CF694FD1A3D0356008285F3 /* math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math.m; sourceTree = "<group>"; };
+		6CF694FE1A3D0356008285F3 /* OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		6CF694FF1A3D0356008285F3 /* opencv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = opencv.mm; sourceTree = "<group>"; };
+		6CF695001A3D0356008285F3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		6CF695011A3D0356008285F3 /* operations-and-indexing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "operations-and-indexing.m"; sourceTree = "<group>"; };
+		6CF695021A3D0356008285F3 /* swix-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swix-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CF695031A3D0356008285F3 /* ScalarArithmetic-bleed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScalarArithmetic-bleed.swift"; sourceTree = "<group>"; };
+		6CF6951C1A3D04F9008285F3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF694BD1A3CD96C008285F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF6951D1A3D04F9008285F3 /* Accelerate.framework in Frameworks */,
+				6CF695191A3D0356008285F3 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF694D21A3CD96C008285F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF694B71A3CD96C008285F3 = {
+			isa = PBXGroup;
+			children = (
+				6CF6951C1A3D04F9008285F3 /* Accelerate.framework */,
+				6CF694E51A3D0356008285F3 /* swix */,
+				6CF694C21A3CD96C008285F3 /* MagneticSensing */,
+				6CF694D81A3CD96C008285F3 /* MagneticSensingTests */,
+				6CF694C11A3CD96C008285F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF694C11A3CD96C008285F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694C01A3CD96C008285F3 /* MagneticSensing.app */,
+				6CF694D51A3CD96C008285F3 /* MagneticSensingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF694C21A3CD96C008285F3 /* MagneticSensing */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694C51A3CD96C008285F3 /* AppDelegate.swift */,
+				6CF694C71A3CD96C008285F3 /* ViewController.swift */,
+				6CF694C91A3CD96C008285F3 /* Main.storyboard */,
+				6CF694CC1A3CD96C008285F3 /* Images.xcassets */,
+				6CF694CE1A3CD96C008285F3 /* LaunchScreen.xib */,
+				6CF694C31A3CD96C008285F3 /* Supporting Files */,
+			);
+			path = MagneticSensing;
+			sourceTree = "<group>";
+		};
+		6CF694C31A3CD96C008285F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694C41A3CD96C008285F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF694D81A3CD96C008285F3 /* MagneticSensingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694DB1A3CD96C008285F3 /* MagneticSensingTests.swift */,
+				6CF694D91A3CD96C008285F3 /* Supporting Files */,
+			);
+			path = MagneticSensingTests;
+			sourceTree = "<group>";
+		};
+		6CF694D91A3CD96C008285F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694DA1A3CD96C008285F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF694E51A3D0356008285F3 /* swix */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694E61A3D0356008285F3 /* imshow.py */,
+				6CF694E71A3D0356008285F3 /* io.swift */,
+				6CF694E81A3D0356008285F3 /* machine_learning */,
+				6CF694EA1A3D0356008285F3 /* matrix */,
+				6CF694F21A3D0356008285F3 /* ndarray */,
+				6CF694F91A3D0356008285F3 /* numbers.swift */,
+				6CF694FA1A3D0356008285F3 /* objc */,
+				6CF695031A3D0356008285F3 /* ScalarArithmetic-bleed.swift */,
+			);
+			path = swix;
+			sourceTree = "<group>";
+		};
+		6CF694E81A3D0356008285F3 /* machine_learning */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694E91A3D0356008285F3 /* machine_learning.swift */,
+			);
+			path = machine_learning;
+			sourceTree = "<group>";
+		};
+		6CF694EA1A3D0356008285F3 /* matrix */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694EB1A3D0356008285F3 /* m-complex-math.swift */,
+				6CF694EC1A3D0356008285F3 /* m-helper-functions.swift */,
+				6CF694ED1A3D0356008285F3 /* m-image.swift */,
+				6CF694EE1A3D0356008285F3 /* m-initing.swift */,
+				6CF694EF1A3D0356008285F3 /* m-matrix.swift */,
+				6CF694F01A3D0356008285F3 /* m-operators.swift */,
+				6CF694F11A3D0356008285F3 /* m-simple-math.swift */,
+			);
+			path = matrix;
+			sourceTree = "<group>";
+		};
+		6CF694F21A3D0356008285F3 /* ndarray */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694F31A3D0356008285F3 /* complex-math.swift */,
+				6CF694F41A3D0356008285F3 /* helper-functions.swift */,
+				6CF694F51A3D0356008285F3 /* initing.swift */,
+				6CF694F61A3D0356008285F3 /* ndarray.swift */,
+				6CF694F71A3D0356008285F3 /* operators.swift */,
+				6CF694F81A3D0356008285F3 /* simple-math.swift */,
+			);
+			path = ndarray;
+			sourceTree = "<group>";
+		};
+		6CF694FA1A3D0356008285F3 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				6CF694FB1A3D0356008285F3 /* conversion.swift */,
+				6CF694FC1A3D0356008285F3 /* machine_learning.mm */,
+				6CF694FD1A3D0356008285F3 /* math.m */,
+				6CF694FE1A3D0356008285F3 /* OpenCV.h */,
+				6CF694FF1A3D0356008285F3 /* opencv.mm */,
+				6CF695001A3D0356008285F3 /* opencv2.framework */,
+				6CF695011A3D0356008285F3 /* operations-and-indexing.m */,
+				6CF695021A3D0356008285F3 /* swix-Bridging-Header.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF694BF1A3CD96C008285F3 /* MagneticSensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF694DF1A3CD96C008285F3 /* Build configuration list for PBXNativeTarget "MagneticSensing" */;
+			buildPhases = (
+				6CF694BC1A3CD96C008285F3 /* Sources */,
+				6CF694BD1A3CD96C008285F3 /* Frameworks */,
+				6CF694BE1A3CD96C008285F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagneticSensing;
+			productName = MagneticSensing;
+			productReference = 6CF694C01A3CD96C008285F3 /* MagneticSensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CF694D41A3CD96C008285F3 /* MagneticSensingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF694E21A3CD96C008285F3 /* Build configuration list for PBXNativeTarget "MagneticSensingTests" */;
+			buildPhases = (
+				6CF694D11A3CD96C008285F3 /* Sources */,
+				6CF694D21A3CD96C008285F3 /* Frameworks */,
+				6CF694D31A3CD96C008285F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF694D71A3CD96C008285F3 /* PBXTargetDependency */,
+			);
+			name = MagneticSensingTests;
+			productName = MagneticSensingTests;
+			productReference = 6CF694D51A3CD96C008285F3 /* MagneticSensingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF694B81A3CD96C008285F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ding Xu";
+				TargetAttributes = {
+					6CF694BF1A3CD96C008285F3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6CF694D41A3CD96C008285F3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6CF694BF1A3CD96C008285F3;
+					};
+				};
+			};
+			buildConfigurationList = 6CF694BB1A3CD96C008285F3 /* Build configuration list for PBXProject "MagneticSensing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CF694B71A3CD96C008285F3;
+			productRefGroup = 6CF694C11A3CD96C008285F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF694BF1A3CD96C008285F3 /* MagneticSensing */,
+				6CF694D41A3CD96C008285F3 /* MagneticSensingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF694BE1A3CD96C008285F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF694CB1A3CD96C008285F3 /* Main.storyboard in Resources */,
+				6CF694D01A3CD96C008285F3 /* LaunchScreen.xib in Resources */,
+				6CF694CD1A3CD96C008285F3 /* Images.xcassets in Resources */,
+				6CF695041A3D0356008285F3 /* imshow.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF694D31A3CD96C008285F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF694BC1A3CD96C008285F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF695131A3D0356008285F3 /* simple-math.swift in Sources */,
+				6CF695101A3D0356008285F3 /* initing.swift in Sources */,
+				6CF694C81A3CD96C008285F3 /* ViewController.swift in Sources */,
+				6CF6950D1A3D0356008285F3 /* m-simple-math.swift in Sources */,
+				6CF6950B1A3D0356008285F3 /* m-matrix.swift in Sources */,
+				6CF695081A3D0356008285F3 /* m-helper-functions.swift in Sources */,
+				6CF6951A1A3D0356008285F3 /* operations-and-indexing.m in Sources */,
+				6CF695091A3D0356008285F3 /* m-image.swift in Sources */,
+				6CF6951B1A3D0356008285F3 /* ScalarArithmetic-bleed.swift in Sources */,
+				6CF695161A3D0356008285F3 /* machine_learning.mm in Sources */,
+				6CF695111A3D0356008285F3 /* ndarray.swift in Sources */,
+				6CF695061A3D0356008285F3 /* machine_learning.swift in Sources */,
+				6CF6950F1A3D0356008285F3 /* helper-functions.swift in Sources */,
+				6CF695121A3D0356008285F3 /* operators.swift in Sources */,
+				6CF695171A3D0356008285F3 /* math.m in Sources */,
+				6CF6950C1A3D0356008285F3 /* m-operators.swift in Sources */,
+				6CF695141A3D0356008285F3 /* numbers.swift in Sources */,
+				6CF695051A3D0356008285F3 /* io.swift in Sources */,
+				6CF695181A3D0356008285F3 /* opencv.mm in Sources */,
+				6CF6950E1A3D0356008285F3 /* complex-math.swift in Sources */,
+				6CF694C61A3CD96C008285F3 /* AppDelegate.swift in Sources */,
+				6CF6950A1A3D0356008285F3 /* m-initing.swift in Sources */,
+				6CF695151A3D0356008285F3 /* conversion.swift in Sources */,
+				6CF695071A3D0356008285F3 /* m-complex-math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF694D11A3CD96C008285F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF694DC1A3CD96C008285F3 /* MagneticSensingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CF694D71A3CD96C008285F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF694BF1A3CD96C008285F3 /* MagneticSensing */;
+			targetProxy = 6CF694D61A3CD96C008285F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CF694C91A3CD96C008285F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF694CA1A3CD96C008285F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF694CE1A3CD96C008285F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF694CF1A3CD96C008285F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF694DD1A3CD96C008285F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CF694DE1A3CD96C008285F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF694E01A3CD96C008285F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swix/objc",
+				);
+				INFOPLIST_FILE = MagneticSensing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		6CF694E11A3CD96C008285F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swix/objc",
+				);
+				INFOPLIST_FILE = MagneticSensing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6CF694E31A3CD96C008285F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagneticSensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticSensing.app/MagneticSensing";
+			};
+			name = Debug;
+		};
+		6CF694E41A3CD96C008285F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagneticSensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticSensing.app/MagneticSensing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF694BB1A3CD96C008285F3 /* Build configuration list for PBXProject "MagneticSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF694DD1A3CD96C008285F3 /* Debug */,
+				6CF694DE1A3CD96C008285F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF694DF1A3CD96C008285F3 /* Build configuration list for PBXNativeTarget "MagneticSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF694E01A3CD96C008285F3 /* Debug */,
+				6CF694E11A3CD96C008285F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CF694E21A3CD96C008285F3 /* Build configuration list for PBXNativeTarget "MagneticSensingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF694E31A3CD96C008285F3 /* Debug */,
+				6CF694E41A3CD96C008285F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CF694B81A3CD96C008285F3 /* Project object */;
+}
